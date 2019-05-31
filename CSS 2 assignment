@@ -9,7 +9,7 @@
 <link href="/styles/reset.css" rel="stylesheet" />
     <link href="./styles/global.css" rel="stylesheet" />
     <style>
-        /* display */
+        /* display: inline */
     </style>
 </head>
 <body>
