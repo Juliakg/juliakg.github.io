@@ -1,0 +1,26 @@
+h1 {
+  color:black;
+  font-size:18;
+  font-style: normal;
+  font-family: serif;
+}
+
+h2 {
+  text-align: left;
+  color: red;
+  font-size: 45px;
+}
+.footer {
+  display: flex;
+  /* display: block; */
+  min-height: 150px;
+  background-color:pink;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  justify-content: center;
+  align-content: center;
+  color:#fff;
+  padding 40px;
+}
