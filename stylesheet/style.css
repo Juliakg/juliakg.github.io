@@ -43,12 +43,13 @@ header #banner{
 }
 
 header #banner h1{
+  font-size: 80px;
   margin: 0;
 }
 
 header nav{
   float: right;
-  margin-top: 10px;
+  margin-top: 70px;
 }
 
 header .highlight, header .current a{
@@ -57,7 +58,7 @@ header .highlight, header .current a{
 }
 
 h2 {
-  text-align: left;
+  text-align: right;
   color: red;
   font-size: 45px;
 }
@@ -67,11 +68,16 @@ header a:hover{
   font-weight: bold;
 }
 
+p {
+float: right;
+font-size: 22px
+}
+
 .footer {
   display: flex;
   /* display: block; */
   min-height: 150px;
-  background-color:pink;
+  background-color:red;
   justify-content: center;
   align-items: center;
 }
