@@ -1,17 +1,25 @@
 body {
-  font-family: Ariel; Helvetica; sans-serif;
-  font-size: 15px;
-  line-height: 1.5;s
-padding: 0;
-margin: 0;
+  font-family: Arial; Helvetica; sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+padding: 10;
+margin: 15;
 background-color: #f4f4f4;
 }
+
 .container{
   width: 80%;
-  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px auto 35px auto;
   overflow: hidden;
 }
+.image{
 
+}
+.description{
+margin: auto auto auto 40px;
+}
 ul{
  margin: 0;
  padding: 0;
@@ -58,7 +66,7 @@ header .highlight, header .current a{
 }
 
 h2 {
-  text-align: right;
+  text-align: center;
   color: red;
   font-size: 45px;
 }
@@ -68,23 +76,58 @@ header a:hover{
   font-weight: bold;
 }
 
-p {
-float: right;
-font-size: 22px
+#showcase img{
+  max-height:300px;
+  max-width:250px;
+}
+#showcase p{
+  font-size: 20px;
+
+}
+h3 {
+  font-weight: bold;
+  color: red;
+}
+/* boxes */
+#boxes{
+  margin-top:20px;
+  background-color: grey;
+  }
+
+#boxes .box{
+  float:left;
+  text-align: left;
+  width: 30%;
+  padding: 10px;
+  margin: 30px auto auto auto;
 }
 
+#boxes .box img{
+  width:90px;
+}
+/* .container {
+  display: grid;
+  grid-template-columns: 40%;
+   grid-column-gap: 10px;
+} */
+#return{
+  position: absolute;
+  right: 0px;
+}
+#return-to-top{
+  font-size: 15px;
+
+}
+
+#Cohorts{
+
+}
 .footer {
+  margin-top: 100px;
   display: flex;
   /* display: block; */
   min-height: 150px;
   background-color:red;
   justify-content: center;
   align-items: center;
-}
-
-.footer p {
-  justify-content: center;
-  align-content: center;
-  color:#fff;
-  padding 40px;
 }
