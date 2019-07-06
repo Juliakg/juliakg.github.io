@@ -23,12 +23,12 @@ margin: auto auto auto 40px;
 ul{
  margin: 0;
  padding: 0;
-}
+ }
 
 header {
   background: #35424a;
   color: #ffffff;
-  padding-top: 30px;
+  padding-top: 25px;
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
 }
@@ -114,20 +114,44 @@ h3 {
   position: absolute;
   right: 0px;
 }
+
 #return-to-top{
   font-size: 15px;
-
 }
 
-#Cohorts{
-
+#cohorts{
+  margin-top:20px;
+  background-color: grey;
+  display: block;
+  padding: 0 20px 0 20px;
 }
+
+.cohort-lists {
+  padding: 7px 0;
+}
+
+.cohort-list-item {
+  margin: 7px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  background-color: red;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.cohort-list-item a {
+  color: white;
+  text-decoration: none;
+}
+
+
 .footer {
   margin-top: 100px;
   display: flex;
   /* display: block; */
   min-height: 150px;
   background-color:red;
+  color: white;
   justify-content: center;
   align-items: center;
 }
