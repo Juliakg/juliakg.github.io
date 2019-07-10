@@ -2,28 +2,31 @@ body {
   font-family: Arial; Helvetica; sans-serif;
   font-size: 20px;
   line-height: 1.5;
-padding: 10;
-margin: 15;
-background-color: #f4f4f4;
+  padding: 10;
+  margin: 15;
+  background-color: #f4f4f4;
 }
 
-.container{
+.container {
   width: 80%;
   display: flex;
   justify-content: space-between;
   margin: 25px auto 35px auto;
   overflow: hidden;
 }
-.image{
 
+.description {
+  margin: auto auto auto 40px;
 }
-.description{
-margin: auto auto auto 40px;
+
+.about_Julia {
+  margin: auto auto auto 40px;
 }
-ul{
- margin: 0;
- padding: 0;
- }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 header {
   background: #35424a;
@@ -33,20 +36,31 @@ header {
   border-bottom: #e8491d 3px solid;
 }
 
-header a{
+h2 {
+  text-align: center;
+  color: red;
+  font-size: 45px;
+}
+
+h3 {
+  font-weight: bold;
+  color: white;
+}
+
+header a {
   color: #ffffff;
   text-decoration:none;
   text-transform: uppercase;
   font-size: 16px;
 }
 
-header li{
+header li {
   float:left;
   display:inline;
   padding: 0 20px 0 20px;
 }
 
-header #banner{
+header #banner {
   float:left;
 }
 
@@ -55,39 +69,32 @@ header #banner h1{
   margin: 0;
 }
 
-header nav{
+header nav {
   float: right;
   margin-top: 70px;
 }
 
-header .highlight, header .current a{
+header .highlight,
+header .current a {
   color:#e8491d;
   font-weight:bold;
 }
 
-h2 {
-  text-align: center;
-  color: red;
-  font-size: 45px;
-}
-
-header a:hover{
+header a:hover {
   color:#cccccc;
   font-weight: bold;
 }
 
-#showcase img{
+#showcase img {
   max-height:300px;
   max-width:250px;
 }
-#showcase p{
-  font-size: 20px;
 
+#showcase p {
+  font-size: 20px;
+  margin-bottom: 15px;
 }
-h3 {
-  font-weight: bold;
-  color: red;
-}
+
 /* boxes */
 #boxes{
   margin-top:20px;
@@ -105,11 +112,7 @@ h3 {
 #boxes .box img{
   width:90px;
 }
-/* .container {
-  display: grid;
-  grid-template-columns: 40%;
-   grid-column-gap: 10px;
-} */
+
 #return{
   position: absolute;
   right: 0px;
@@ -119,11 +122,26 @@ h3 {
   font-size: 15px;
 }
 
-#cohorts{
-  margin-top:20px;
+#about_Julia img {
+  max-height:300px;
+  max-width:250px;
+}
+
+#about_Julia p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#cohorts {
+  margin-top:50px;
   background-color: grey;
   display: block;
-  padding: 0 20px 0 20px;
+  padding: 90px 20px 90px 20px;
+}
+
+.cohorts-introduction p{
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .cohort-lists {
@@ -144,14 +162,76 @@ h3 {
   text-decoration: none;
 }
 
+/*  */
+
+.resume-center {
+  justify-content: center;
+}
+
+.julia-resume {
+  padding: 7px 0;
+}
+
+.resume-juliakg {
+  margin: 7px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  background-color: red;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.resume-juliakg a {
+  color: white;
+  text-decoration: none;
+}
+
+/*  */
+
+#resume {
+  font-size: 15px;
+  display: block;
+
+  margin: 0px;
+  padding: 90px 8px;
+  border-radius: 0px;
+  background-color: grey;
+
+  align-items: center;
+}
+li {
+    list-style-type: none;
+}
 
 .footer {
-  margin-top: 100px;
+  margin-top: 0px;
   display: flex;
-  /* display: block; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". phone_number links";
   min-height: 150px;
   background-color:red;
   color: white;
   justify-content: center;
   align-items: center;
+}
+
+.footer-phone_number {
+  grid-area: phone_number;
+  text-align: center;
+}
+
+.footer-links {
+  grid-area: links;
+
+}
+
+.logo-icon {
+  width: 40px;
+  height: auto;
+  margin: 0 0 0 15px;
+  text-decoration: none;
+  outline: none;
+  border: 0px none transparent;
 }
