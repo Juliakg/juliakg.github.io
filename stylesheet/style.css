@@ -4,7 +4,7 @@ body {
   line-height: 1.5;
   padding: 10;
   margin: 15;
-  background-color: #f4f4f4;
+  background-color: #c3c3c3;
 }
 
 .container {
@@ -184,6 +184,9 @@ header a:hover {
 .resume-juliakg a {
   color: white;
   text-decoration: none;
+}
+  .resume-juliakg a:hover {
+  background-color: grey;
 }
 
 /*  */
