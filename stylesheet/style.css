@@ -40,6 +40,7 @@ h2 {
   text-align: center;
   color: red;
   font-size: 45px;
+  font-weight: 600;
 }
 
 h3 {
@@ -98,7 +99,7 @@ header a:hover {
 /* boxes */
 #boxes{
   margin-top:20px;
-  background-color: grey;
+  background-color: #9e9e9e;
   }
 
 #boxes .box{
@@ -113,13 +114,36 @@ header a:hover {
   width:90px;
 }
 
+.return-top {
+  padding: 7px 0;
+}
 #return{
   position: absolute;
-  right: 0px;
+  right: 20px;
 }
 
 #return-to-top{
-  font-size: 15px;
+  font-size: 20px;
+}
+.return-to-top a:link {
+  background-color: #9e9e9e;
+}
+
+.return-to-top a:hover {
+  background-color: #c3c3c3;
+}
+.return-to-top {
+  margin: 7px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  background-color: red;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.return-to-top a {
+  color: white;
+  text-decoration: none;
 }
 
 #about_Julia img {
@@ -134,7 +158,7 @@ header a:hover {
 
 #cohorts {
   margin-top:50px;
-  background-color: grey;
+  background-color: #9e9e9e;
   display: block;
   padding: 90px 20px 90px 20px;
 }
@@ -186,7 +210,7 @@ header a:hover {
   text-decoration: none;
 }
   .resume-juliakg a:hover {
-  background-color: grey;
+  background-color: #9e9e9e;
 }
 
 /*  */
@@ -198,10 +222,10 @@ header a:hover {
   margin: 0px;
   padding: 90px 8px;
   border-radius: 0px;
-  background-color: grey;
-
+  background-color: #9e9e9e;
   align-items: center;
 }
+
 li {
     list-style-type: none;
 }
