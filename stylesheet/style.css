@@ -117,23 +117,29 @@ header a:hover {
 
 .return-top {
   padding: 1px 0;
+  grid-area: return-to-top;
 }
 #return{
-  position: absolute;
-  right: 20px;
+  margin-top: 0px;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". . . . . . return-to-top";
+}
+.return-to-top {
+  text-align: center;
 }
 
-#return-to-top{
-  font-size: 18px;
-}
 .return-to-top a:link {
   background-color: #e82413;
-}
+  }
 
 .return-to-top a:hover {
   background-color: #c3c3c3;
 }
 .return-to-top {
+  font-size: 18px;
   margin-right: 49px;
   padding: 3px 6px;
   border-radius: 15px;
