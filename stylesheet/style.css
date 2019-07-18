@@ -258,14 +258,16 @@ li {
 
 .footer-links {
   grid-area: links;
-
+}
+.footer-links a {
+  text-decoration: none;
 }
 
 .logo-icon {
   width: 40px;
   height: auto;
   margin: 0 0 0 15px;
-  text-decoration: none;
+  /* text-decoration: none; */
   outline: none;
   border: 0px none transparent;
 }
